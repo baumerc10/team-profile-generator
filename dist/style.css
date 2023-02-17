@@ -1,0 +1,9 @@
+.employee-card {
+    box-shadow: 6 px 6 px 6 px gray;
+    margin: 1rem;    
+    
+}
+
+.card-header {
+    background-color: rgb(0, 0, 232);
+}
