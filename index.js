@@ -3,11 +3,11 @@ const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const fs = require('fs');
-const inquirer = import(inquirer);
+const inquirer = require('inquirer');
 const teamArray = [];
 
 const addManager = ()=> {
-    return inquirer.prompt ([
+     return inquirer.prompt ([
         {
             type: 'input',
             name: 'name',
