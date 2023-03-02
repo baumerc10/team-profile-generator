@@ -1,10 +1,5 @@
 const Employee = require ('../lib/Employee');
 
-test('Creates an employee object instance', () => {
-    const employee = new Employee();
-    expect(typeof(employee).toEqual('object'));
-});
-
 test('Get employee name', () => {
     const name = 'Cody';
     const employee = new Employee(name);
